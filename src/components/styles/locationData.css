@@ -1,0 +1,27 @@
+.location {
+background-color: #072226;
+padding: 20px;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+}
+.location__name {
+    color: #7CBA24;
+}
+.location__list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;/*esto para q haga salto de linea si se pegan*/
+    justify-content: space-evenly;
+}
+.location__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.location__item span:last-child {
+    color: #777;
+}
